@@ -1,4 +1,163 @@
 body{
-    font-family: 'MuseoModerno', cursive;
-    font-family: 'Piedra', cursive;
+    margin: 0;
+	font-family: 'Poppins', sans-serif;
 }
+img{
+	width:100%;
+	transition:1s;
+}
+img:hover{
+	transform:scale(.5);
+}
+
+.content{
+	width:85%;
+	margin:0 auto;
+}
+.content-right{
+	width:49%;
+	height:45%;
+	float:left;
+	overflow:hidden;
+	text-align;center;
+	
+}
+.content-right h1{
+	font-size:50px;
+	
+}
+.content-right span{
+	color:#FFCC1B;
+	transition:1s;
+}
+.content-right span:hover{
+	font-size:62px;
+	color:#FFAF1C;
+}
+.content-right h3{
+	font-size:20px;
+}
+.content-right p{
+	font-size:17px;
+	color:#8080C0;
+}
+.button{
+	padding:10px 20px;
+	background: linear-gradient(45deg, #FF0039, #FF6F8F);
+	border-radius:5px;
+	color:white;
+	text-decoration:none;
+	transition:.3s;
+}
+.button:hover{
+	border:5px solid #FF00FF;
+}
+
+.content-left{
+	width:45%;
+	float:right;
+	overflow:hidden;
+}
+
+.dag{
+	width:70%;
+	padding:10px 0px;
+	background-color:#FFF400;
+	overflow:hidden;
+	text-align:center;
+	border:5px solid #FF8000;
+	border-radius: 20px;
+	font-size:30px;
+	transition:1s;
+	margin:0 auto;
+}
+.dag:hover{
+	width:90%;
+	background-color:#FFAF1C;
+	border:5px solid #FFFF20;
+}
+.content2{
+	width:85%;
+	margin:0 auto;
+	margin-top:10%;
+	background:rad;
+	overflow:hidden;
+	margin-bottom:10%;
+}
+.con1{
+	float:left;
+	overflow:hidden;
+	width:49%;
+	height:45%;
+	
+}
+
+.con2{
+	float:right;
+	overflow:hidden;
+	width:49%;
+	height:45%;
+}
+.con2 h2{
+	font-size:40px;
+	color:#FFA500;
+}
+.con2 img:hover{
+	
+}
+.con2 p{
+	color:#808080;
+}
+/*--===========================
+==============================*/
+
+
+.content3{
+	width:90%;
+	margin:0 auto;
+	margin-bottom:15%;
+	overflow:hidden;
+}
+.Experiences{
+	font-size:35px;
+	text-align:center;
+	margin-bottom:5%;
+	overflow:hidden;
+}
+.Full-stack1{
+	width:45%;
+	float:left;
+	overflow:hidden;
+	background:white;
+	padding-left:30px;
+	border-left:5px solid;
+	border-image:linear-gradient(180deg, #FF00FF, #FF0000);
+	border-image-slice:1;
+	
+	
+}
+.Full-stack1 h2{
+	font-size:35px;
+}
+.Full-stack1 h3{
+	color:#FFA529;
+}
+.Full-stack2{
+	width:45%;
+	float:right;
+	overflow:hidden;
+	background:white;
+	padding-left:30px;
+	border-left:5px solid;
+	border-image:linear-gradient(180deg, #0000FF, #00FEFF);
+	border-image-slice:1;
+	padding-bottom:50px;
+	box-shadow:10px 10px 40px #C0C0C0;
+}
+.Full-stack2 h2{
+	font-size:35px;
+}
+.Full-stack2 h3{
+	color:#FFA529;
+}
+	
